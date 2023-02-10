@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": "^8.1",
+        "vlucas/phpdotenv": "^5.5",
+        "shopify/shopify-api": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "StoreOAuth\\": "src/"
+        }
+    }
+}

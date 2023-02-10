@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container {
+    display: flex;
+    align-content: stretch;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 340px;
+    height: 210px;
+    background-color: #fff;
+    box-shadow: #d5d5d5;
+    border-radius: 12px;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+}
+
+.box {
+    width: 235px;
+}
+
+.input-popup label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.input-label label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.input input {
+    width: 236px;
+    height: 20px;
+    border: 1px solid #b4b4b4;
+}
+
+.input-popup {
+    padding-bottom: 8px;
+}
+
+.popup {
+    padding-bottom: 18px;
+}
+
+.popup select {
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    padding: 0 5px;
+    line-height: 36px;
+    height: 24px;
+    box-shadow: inset 1px 1px 1px 0px rgb(0 0 0 / 10%);
+    background: #fff;
+    width: 236px;
+}
+
+.input-label {
+    padding-bottom: 8px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding-top: 15px;
+}
+
+.center {
+    padding-top: 30px;
+}
+
+.input input{
+    width: 236px;
+    height: 22px;
+    border: 1px solid #b4b4b4;
+    padding: 0 8px;
+    line-height: 36px;
+    box-shadow: inset 1px 1px 1px 0px rgb(0 0 0 / 10%);
+    background: #fff;
+    border-radius: 4px;
+}
+
+.input-text::placeholder {
+    color: #858585;
+}
+
+.submit-button input {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4390ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
