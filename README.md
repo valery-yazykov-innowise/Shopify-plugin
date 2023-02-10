@@ -11,7 +11,7 @@
 
 ### 1. Retrieving project files
 
-You need to clone this repository - "git clone https://github.com/valery-yazykov-innowise/Shopify-plugin.git" and switch to the desired branch "git checkout server-test".
+You need to clone this repository - "git clone https://github.com/valery-yazykov-innowise/Shopify-plugin.git".
 
 ### 2. Running the script for quick setup
 
